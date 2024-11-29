@@ -1,0 +1,135 @@
+body{
+    background-color:cadetblue;
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: center;
+    gap: 1%;
+    height: 50px;
+}
+header{
+    margin-top: 30px;
+    height: 100px;
+}
+#tarea{
+    font-size: 1em;
+    font-style: italic;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+#anadir{
+    background-color: cadetblue;
+    width: 90%;
+    height: 50px;
+    font-size: 1em;
+    border: white 4px solid;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+#anadir:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    color: cadetblue;
+}
+::placeholder {
+    color: rgb(228, 204, 204);
+    font-size: 1em;
+    font-style: italic;
+  }
+
+h1{
+    background-color: cadetblue;
+    border: white 3px solid;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    margin: 10px 0px;
+}
+footer{
+    display: grid;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.contenedor{
+    display: grid;
+    background-color: white;
+    margin: 5px ;
+    grid-template-columns:70% 5% 20%;
+    border: white 5px solid;
+    border-color: cadetblue;
+    font-size: 2em;
+    font-family:cursive;
+    border-radius: 15px;
+    padding: 0px 10px;
+    gap: 5px;
+    list-style-type:none;
+    
+}
+#tareas{
+    text-align: left;
+}
+.eliminar{
+    margin: 5%;
+    padding: 5px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 5px;
+}
+.eliminar:hover{
+    background-color: rgb(125, 5, 5);
+}
+img{
+    align-items:center;
+    width: 50px;
+    padding: auto;
+    border-radius: 15px;
+    
+}
+img:hover{
+    width: 40px;
+    padding: 5px;
+}
+@media only screen and (min-width: 1000px) {
+    header{ 
+        height: 200px;
+        margin: 0 200px;
+    }
+    #tarea{
+        height: 80px;
+        font-size: 1.5em;
+    }
+    form{
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    #anadir{
+        height: 86px;
+        font-size: 1.5em;
+    }
+    .contenedor{
+        padding: 10px;
+        margin: 0px 400px;
+        list-style-type:none;
+    }
+    #tareas{
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 100px;
+    }
+    img:hover{
+        width: 90px;
+    }
+    #anadir:hover{
+        background-color: rgb(255, 255, 255);
+        font-size: 3em;
+    }
+  }
